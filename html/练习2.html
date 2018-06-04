@@ -1,0 +1,46 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script>
+        window.onload = function () {
+            var oBtn = document.getElementById('btn1');
+            var oText = document.getElementById('text1');
+            var oSelect = document.getElementById('select1')
+            oBtn.onclick = function () {
+                //alert(oBtn.type);
+                //alert(oText.value);
+                //alert(oSelect.value);
+                
+                //字符串连接  '淘宝' + '杭州'
+                //alert(oText.value + '在' + oSelect.value);
+
+            };
+        };
+        /*
+        HTML属性操作：读、写
+            属性名
+            属性值
+        属性读操作：获取、找到
+            元素.属性名
+        属性写操作：("添加")替换、修改
+            元素.属性名 = 新的值
+        字符串连接
+        */
+    </script>
+</head>
+
+<body>
+    <input type="text" name="" id="text1" value=""/>
+    <select name="" id="select1">
+        <option value="北京">北京</option>
+        <option value="上海">上海</option>
+        <option value="杭州">杭州</option>
+    </select>
+    <input id="btn1" type="button" value="按钮" />
+</body>
+
+</html>

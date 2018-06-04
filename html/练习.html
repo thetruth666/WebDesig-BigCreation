@@ -1,0 +1,122 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Document</title>
+<script>
+    window.onload = function () {
+        var li = document.getElementById('lis');
+        var ul = document.getElementById('ul1');
+        var a = document.getElementById('link');
+
+        li.onmouseover = function show() {
+            ul.style.display = 'block';
+            a.style.background = 'yellow';
+        };
+        
+        li.onmouseout = function hide() {
+            ul.style.display = 'none';
+            a.style.background = '#f1f1f1';
+        };
+
+    }
+        /*
+        JS中如何获取元素：
+            1、通过id名称来获取元素：
+               document get element by id 'link' -> document.getElementById('link')
+            2、
+
+
+
+
+            事件：鼠标事件、键盘事件、系统事件、表单事件、自定义事件
+            鼠标：onclick onmouseover onmouseout onmousemove onmousedown onmouseup
+
+            onload     加载完以后再执行
+            window.onload/img.onload/body.onload
+            如何添加事件：
+            元素.onmouseover
+
+            函数：
+            如何执行：直接调用：abc();
+                     事件调用：元素.事件=函数名 oDiv.onclick=abc;
+                    function (){}  匿名函数
+                    元素.事件 = 匿名函数
+
+            测试：alert(1);  带了一个确定按钮的警告框
+        */
+    </script>
+    <style>
+        .lis {
+            list-style: none;
+            width: 80px;
+            height: 30px;
+            border: 1px solid #333;
+            position: relative;
+        }
+
+        .lis a {
+            display: block;
+            line-height: 30px;
+            text-align: cneter;
+            text-decoration: none;
+            color: #000;
+            background: #f1f1f1;
+        }
+
+        ul ul {
+            padding: 0;
+            margin: 0;
+            width: 140px;
+            border: 1px solid #333;
+            position: absolute;
+            top: 30px;
+            left: -1px;
+            background: rgb(206, 180, 197);
+            display: none;
+        }
+
+        li {
+            list-style: none;
+        }
+
+        ul ul li {
+            text-align: center;
+            line-height: 30px;
+        }
+
+        #link {
+            text-decoration: none;
+        }
+    </style>
+
+    <!-- 希望把某个元素移除你的视线：
+              1、display: none;         显示为无
+              2、visibility: hidden;    让元素隐藏
+              3、width\height;          可以做到慢慢打开
+              4、透明度                  可以做到淡入淡出  
+              5、left\top               元素移动效果
+              6、用一个背景颜色的DIV盖住  
+              7、margin负值  
+
+            -->
+
+</head>
+
+<body>
+    <ul>
+        <li id="lis" 　class="lis">
+            <a id="link" href="#">微博</a>
+            <ul id="ul1">
+                <li>私信</li>
+                <li>评论</li>
+                <li>@我</li>
+            </ul>
+        </li>
+    </ul>
+
+</body>
+
+</html>

@@ -1,0 +1,86 @@
+.bg {
+    background: url(../images/bluesky.jpg);
+    height: 600px;
+    text-align: center;
+    line-height: 600px;
+    background-repeat: no-repeat;
+}
+
+.bg-blur {
+    float: left;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    -webkit-filter: blur(15px);
+    -moz-filter: blur(15px);
+    -o-filter: blur(15px);
+    -ms-filter: blur(15px);
+    filter: blur(15px);
+}
+
+.content-front {
+    position: absolute;
+    border: 5px inset grey;
+    border-radius: 15px;
+    text-align: center;
+    margin-left: 30%;
+}
+
+.content-front input {
+    height: 30px;
+    width: 500px;
+    border-radius: 5px;
+    font-weight: 900;
+    margin: 5px 0 5px 0;
+}
+
+.Year input {
+    width: 400px;
+}
+
+.BirthTime select {
+    width: 94.5px;
+    font-size: 25px;
+    vertical-align: middle;
+    height: 30px;
+}
+
+.Submit {
+    text-align: center;
+}
+
+.Submit input {
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 900;
+    color: white;
+    border-style: outset 20px;
+    height: 50px;
+    width: 200px;
+    background: #D2006B;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    box-shadow: 7px 7px 10px grey;
+}
+
+.Submit input:hover {
+    color: yellow;
+}
+
+.SchoolPeople {
+    text-align: left;
+    width: 500px;
+    font-style: italic;
+    font-weight: 900;
+}
+
+.SchoolPeople input{
+    margin-top:-30px;
+}
+
+.sex {
+    text-align: center;
+    margin: auto;
+}
