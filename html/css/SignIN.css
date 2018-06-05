@@ -1,5 +1,5 @@
 html,body{
-    background:             url(images/background.gif);
+    background:             url(../images/background.gif);
     background-color:       #efe5d0;
     font-family:            sans-serif,serif;
     font-size:              small;
@@ -8,10 +8,6 @@ html,body{
 
 h1,h2{
     text-align:             center;
-}
-
-.tableRow{
-    align-content:          right;
 }
 
 form {
