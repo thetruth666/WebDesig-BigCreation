@@ -1,0 +1,60 @@
+html,body{
+    background:             url(images/background.gif);
+    background-color:       #efe5d0;
+    font-family:            sans-serif,serif;
+    font-size:              small;
+    margin:                 0px;
+}
+
+h1,h2{
+    text-align:             center;
+}
+
+.tableRow{
+    align-content:          right;
+}
+
+form {
+	display:                table;
+	padding:                10px;
+	border:                 thin dotted #7e7e7e;
+    background-color:       #e1ceb8;
+    margin:                 10px auto;
+    height:                 350px;
+    width:                  400px;
+    text-align: right;
+}
+
+legend{
+    text-align:             center;
+    font-size:              25px;
+}
+
+label{
+    float:                  left;
+    text-align:             right;
+}
+
+div.tableRow{
+    display:                table;
+}
+
+div.tableRow > p, div.tableRow > label, div.tableRow > input {
+	display:                table-cell;
+	vertical-align:         top;
+	padding:                3px;
+}
+
+div.tableRow label:first-child {
+	text-align:             right;
+}
+form textarea {
+	display:                table-cell;
+	width:                  500px;
+	height:                 200px;
+}
+
+legend { 
+	font-weight:            bold;
+}
+

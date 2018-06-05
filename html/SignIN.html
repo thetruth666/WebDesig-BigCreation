@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="utf-8">
+    <title>注册页面</title> 
+    <link rel="stylesheet" href="SignIN.css">
+    <script src="SignIN.js"></script>
+</html>
+<body>
+    <div class="m-body">
+        <h1 id="head1">华中大一起约平台</h1>
+        <h2 id="head2">请填写下列表格</h2>
+        <div class="context">
+            <form action="" method="post" >
+            <div id=table>
+                <fieldset>
+                <legend>个人信息</legend>
+                <div class="tableRow">
+                    <label>学号</label><br>
+                    <p>
+                        <input type="text" placeholder="请输入学号" id="xuehao" value="">
+                    </p>
+                </div>
+
+                <div class="tableRow">
+                    <label for="sex">性别</label><br>
+                    <p>
+                        <select id="sex" name="sex">
+                            <option value="male">男</option>
+                            <option value="female">女</option>
+                        </select>
+                    </p>
+                </div>
+
+                <div class="tableRow">
+                    <label>学院</label><br>
+                    <p>
+                        <input type="text" id="academy" name="academy" value="" placeholder="请输入所在院系">
+                    </p>
+                </div>
+                </fieldset>
+
+                <fieldset>
+                <legend>账号信息</legend>
+                <div class=tableRow>
+                    <label>用户名：</label><br>
+                    <p>
+                        <input type="text" placeholder="请输入用户名" id="username" class="tabelcell" value=""><br>
+                    </p>
+                </div>
+
+                <div class="tableRow">
+                    <label> 密码：</label><br>
+                    <p>
+                        <input type="password" placeholder="请输入密码" value="" id="password" class="tablecell"><br>
+                    </p>
+                </div>
+                
+                <div class=tableRow>
+                    <label>请重新输入密码：</label> <br>
+                    <p>
+                        <input type="password" placeholder="请重新输入密码" value="" id="passwordAgain" class="tablecell"><br>
+                    </p>
+                </div>
+                  
+                <div class="tableRow">
+                    <label>邮箱：</label> <br>
+                    <p>  
+                        <input type="email" placeholder="请输入邮箱" value="" id="user_email" class="tablecell"><br>
+                    </p>
+                </div>
+                </fieldset>
+                <div class="tableRow" style="margin:0 auto";width: 200px;>
+                    <p>
+                        <input type="button" value="确认申请" id="summit" class="tablecell"><br>
+                    </p>
+                </div>
+            </div>
+            </form>
+        </div>
+    </div>
+</body>
