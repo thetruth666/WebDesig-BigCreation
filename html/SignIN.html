@@ -13,33 +13,6 @@
             <form action="" method="post" >
             <div id=table>
                 <fieldset>
-                <legend>个人信息</legend>
-                <div class="tableRow">
-                    <label>学号</label><br>
-                    <p>
-                        <input type="text" placeholder="请输入学号" id="xuehao" value="">
-                    </p>
-                </div>
-
-                <div class="tableRow">
-                    <label for="sex">性别</label><br>
-                    <p>
-                        <select id="sex" name="sex">
-                            <option value="male">男</option>
-                            <option value="female">女</option>
-                        </select>
-                    </p>
-                </div>
-
-                <div class="tableRow">
-                    <label>学院</label><br>
-                    <p>
-                        <input type="text" id="academy" name="academy" value="" placeholder="请输入所在院系">
-                    </p>
-                </div>
-                </fieldset>
-
-                <fieldset>
                 <legend>账号信息</legend>
                 <div class=tableRow>
                     <label>用户名：</label><br>
@@ -69,12 +42,70 @@
                     </p>
                 </div>
                 </fieldset>
-                <div class="tableRow" style="margin:0 auto";width: 200px;>
+
+            </div> 
+
+            <fieldset>
+                <legend>个性信息收集</legend>
+                <div class="tableRow">
+                    <label>学号</label><br>
                     <p>
-                        <input type="button" value="确认申请" id="summit" class="tablecell"><br>
+                        <input type="text" placeholder="请输入学号" id="xuehao" value="">
                     </p>
                 </div>
-            </div>
+
+                <div class="tableRow">
+                    <label>真实姓名</label>
+                    <p>
+                        <input type="text" placeholder="请输入真实姓名" id="trueName" value="">
+                    </p>
+                </div>
+
+                <div class="tableRow">
+                    <label for="sex">性别</label><br>
+                    <p>
+                        <select id="sex" name="sex">
+                            <option value="male">男</option>
+                            <option value="female">女</option>
+                        </select>
+                    </p>
+                </div>
+
+                <div class="tableRow">
+                    <label>学院</label><br>
+                    <p>
+                        <input type="text" id="academy" name="academy" value="" placeholder="请输入所在院系">
+                    </p>
+                </div>
+
+                <div class="tableRow">
+                    <label>电话号码</label>
+                    <p>
+                        <input type="tel" id="phoneNumber" name="phoneNumber" value="" placeholder="请输入电话号码">
+                    </p>
+                </div>
+                </fieldset>
+
+                <div class="tableRow">
+                    <label>喜欢的运动</label>
+                    <p>
+                        <input type="text" id="favorite" name="favorite" value="" placeholder="请输入你喜爱的运动">
+                    </p>
+                </div>
+
+                <div  class="tableRow">
+                    <label>备注</label>
+                    <p>
+                        <textarea id="comments"></textarea>
+                    </p>
+
+                </div>
+
+                <div class="tableRow" style="margin:0 auto";width: 200px;>
+                        <p>
+                            <input type="button" value="确认申请" id="summit" class="tablecell"><br>
+                        </p>
+                </div>
             </form>
         </div>
     </div>
