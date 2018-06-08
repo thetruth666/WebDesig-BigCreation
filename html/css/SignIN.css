@@ -35,6 +35,11 @@ div.tableRow{
     display:                table;
 }
 
+.tablecell:focus{
+    outline:                none;
+    border:                 1px solid green;
+}
+
 div.tableRow > p, div.tableRow > label, div.tableRow > input {
 	display:                table-cell;
 	vertical-align:         top;
